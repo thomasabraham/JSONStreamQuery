@@ -1,6 +1,5 @@
 package jsq
 
-
 type JSONStreamQuerier interface {
 	Query(input []interface{}) []interface{}
 }

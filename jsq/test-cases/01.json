@@ -1,0 +1,24 @@
+{
+    "description": "Identity query",
+    "input": [
+        {
+            "name": "Banana",
+            "type": "Fruit"
+        },
+        {
+            "name": "Orange",
+            "type": "Fruit"
+        }
+    ],
+    "output": [
+        {
+            "name": "Banana",
+            "type": "Fruit"
+        },
+        {
+            "name": "Orange",
+            "type": "Fruit"
+        }
+    ],
+    "query": "SELECT * FROM STREAM"
+}
